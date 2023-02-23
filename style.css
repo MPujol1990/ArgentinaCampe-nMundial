@@ -133,14 +133,11 @@ Pagina de jugadores
     flex-wrap: wrap;
 }
 
-ul li a {
-    text-decoration: none;
-    color: rgba(243, 244, 235, 0.884);
-}
+.row{
+    display:flow-root
+    }
 
-ol li {
-    margin: 10px;
-}
+
 
 h3{
     color: whitesmoke;
@@ -155,9 +152,7 @@ ul li a{color: whitesmoke;
         text-decoration: none;
 }
 
-.nav ol li{
-    height: 100px;
-}
+
 footer {
     padding: .8rem 2rem;
     background-color: rgb(51, 51, 133);
@@ -202,7 +197,6 @@ PAGINA DE JUGADOR
 .principal{
     height: 100vh;
     max-height: 100vh;
-
 }
 
 
